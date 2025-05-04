@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Premium concrete installation, finishing, and consultation services for homeowners and small businesses. Specializing in high-end stamped concrete, decorative finishes, and ADA compliance.">
+    <title>The Elite Service Hub | Premium Concrete Installation & Consultation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      
+      /* Smooth scrolling for the entire page */
+      html {
+        scroll-behavior: smooth;
+      }
+      
+      /* Custom loader animation */
+      @keyframes pulse {
+        0%, 100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.5;
+        }
+      }
+      
+      .loader {
+        animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <!-- Loading state -->
+      <div class="fixed inset-0 flex items-center justify-center bg-gray-900">
+        <div class="text-center">
+          <div class="mb-4 text-2xl font-bold text-white">
+            The Elite <span class="text-sky-400">Service Hub</span>
+          </div>
+          <div class="w-16 h-16 border-4 border-sky-400 border-t-transparent rounded-full animate-spin mx-auto"></div>
+          <p class="mt-4 text-white loader">Loading amazing concrete solutions...</p>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
