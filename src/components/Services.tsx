@@ -77,7 +77,7 @@ const Services: React.FC = () => {
     {
       id: "stamped",
       title: "Decorative & Stamped Concrete",
-      description: "Transform your outdoor spaces with our decorative and stamped concrete solutions that mimic the look of stone, brick, or tile at a fraction of the cost while maintaining durability.",
+      description: "Enhance your outdoor living areas with our premium decorative and stamped concrete. We specialize in creating stunning, high-quality surfaces that replicate the beauty of natural stone, brick, or tile—crafted for lasting elegance and durability.",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2zM9 9h6v6H9V9z" />
